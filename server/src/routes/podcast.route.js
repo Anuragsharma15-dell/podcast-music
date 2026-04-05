@@ -6,7 +6,7 @@ import {
   getAllMusic,
   deleteMusic,
   checkWubbleHealth
-} from '../controllers/podcast.controller';
+} from '../controllers/podcast.controller.ts';
 
 const router = Router();
 router.post('/generate', generatePodcast);

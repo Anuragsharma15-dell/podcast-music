@@ -1,11 +1,12 @@
 {
   "name": "podcastforge-server",
   "version": "1.0.0",
-  "main": "app.ts",
+  "type": "module",
+  "main": "node dist/app.js",
   "scripts": {
     "dev": "nodemon --watch src --ext ts --exec ts-node --transpile-only app.ts",
     "build": "tsc",
-    "start": "node app.js"
+    "start": "ts-node app.ts"
   },
   "dependencies": {
     "@api/wubble": "file:.api/apis/wubble",
@@ -24,6 +25,7 @@
     "@types/express": "^4.17.21",
     "@types/node": "^20.10.0",
     "@types/uuid": "^9.0.7",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.2"
   }

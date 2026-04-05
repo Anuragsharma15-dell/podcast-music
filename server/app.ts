@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import podcastRoutes from '../server/src/routes/podcast.route';
+import podcastRoutes from './src/routes/podcast.route.js';
 
 dotenv.config();
 
@@ -10,8 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/podcastforge';
 
-// Middleware
-const cors = require("cors");
+
 
 app.use(cors({
   origin: "https://podcast-music-ul8q.vercel.app",

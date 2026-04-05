@@ -1,14 +1,14 @@
-import { Request, Response } from 'express';
-import Music from '../models/podcast.model';
-import { scrapeArticle, extractTitle } from '../services/scraper.service';
-import { detectTone, buildMusicPrompt } from '../services/tone.service';
+import type { Request, Response } from 'express';
+import Music from '../models/podcast.model.ts';
+import { scrapeArticle, extractTitle } from '../services/scraper.service.ts';
+import { detectTone, buildMusicPrompt } from '../services/tone.service.ts';
 import {
   sendWubbleChat,
   pollWubbleRequest,
   extractAudioUrl,
   extractDuration,
   checkWubbleHealth as checkWubbleHealthService,
-} from '../services/wubble.service';
+} from '../services/wubble.service.ts';
 
 // POST /api/podcast/generate
 export const generatePodcast = async (req: Request, res: Response) => {
