@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "wubble",
+      "source": "@wubble/v1.0#2scm1y94xmmdr0jlw",
+      "integrity": "sha512-sR36sO8JKH8QbhQcBu2hxviAL53GTB+w7b/A5LMaoqpAU7uXT69JacSyyp5W/18SJ+MZKNndJ7kod69yUT1rrg==",
+      "installerVersion": "6.1.3"
+    }
+  ]
+}
