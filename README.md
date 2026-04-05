@@ -1,6 +1,6 @@
 # 🎵 PodcastForge
 
-![PodcastForge](sound.png)
+![PodcastForge](newaudio.png)
 
 > Generate custom background music for podcasts and content — powered by [Wubble AI](https://wubble.ai).
 
@@ -17,6 +17,12 @@
 - 📦 **MP3 Export** — Download the generated music tracks (30 seconds, extendable)
 - 🗂️ **Library** — All your generated music saved in MongoDB
 - ⚡ **Real-time Polling** — Live status updates while Wubble generates your music
+
+---
+
+## 📸 Screenshots
+
+![Studio Player](player.png)
 
 ---
 
