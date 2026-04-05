@@ -1,6 +1,6 @@
 # � MusicForge
 
-![MusicForge](Screenshot 2026-04-05 114855.png)
+![MusicForge](Screenshot 2026-04-05 114855.png\)
 
 > Generate custom background music for podcasts and content — powered by [Wubble AI](https://wubble.ai).
 
@@ -210,17 +210,4 @@ The prompt engineering builds instructions that specify:
 - 100 Wubble credits are deducted per generation
 
 ---
-
-## 🏆 Hackathon Demo Script
-
-1. Open Landing Page — show the animated hero
-2. Click "Start Creating" — go to Create page
-3. Paste a TechCrunch URL → Auto-detected as "tech" tone
-4. Select "Deep Narrator" voice
-5. Click "Generate Podcast Episode"
-6. Watch the step-by-step loading animation
-7. Land on Studio page — play the generated audio 🎧
-8. Download the MP3
-
-**Impact**: Full article → broadcast-ready podcast in under 90 seconds.
 
