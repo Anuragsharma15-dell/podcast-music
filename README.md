@@ -1,6 +1,6 @@
-# � MusicForge
+# 🎵 PodcastForge
 
-![MusicForge](Screenshot 2026-04-05 114855.png\)
+![PodcastForge](new.png)
 
 > Generate custom background music for podcasts and content — powered by [Wubble AI](https://wubble.ai).
 
