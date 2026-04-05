@@ -9,10 +9,9 @@ import {
 } from '../controllers/podcast.controller';
 
 const router = Router();
-
 router.post('/generate', generatePodcast);
-router.get('/status/:id', getMusicStatus);
+router.get('/health', checkWubbleHealth);   // moved up
+router.get('/status/:id', getMusicStatus);  // now safe
 router.get('/all', getAllMusic);
 router.delete('/:id', deleteMusic);
-router.get('/health',  checkWubbleHealth)
 export default router;

@@ -14,7 +14,7 @@ export const generatePodcast = async ({ input, voice, tone }) => {
 
 // GET /api/music/status/:id
 export const getMusicStatus = async (id) => {
-  const res = await fetch(`${BASE_URL}/status/${id}`);
+  const res = await fetch(`${BASE_URL}/podcast/status/${id}`);
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || 'Failed to get status');
   return data; // { id, title, status, audioUrl, duration, tone, voice, createdAt }
